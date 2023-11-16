@@ -1,3 +1,4 @@
+#Author: Bruno Neves
 .text
 	.globl	main		# onde o c�digo inicia.
 
