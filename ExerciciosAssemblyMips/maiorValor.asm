@@ -16,6 +16,10 @@ main:
 loop:
 	addi $t0, $t0, 1
 	ble $t0,$t1, loop
+	bge ,$t2, switch
+	
+switch:
+	
 
 fim: j fim
 	
