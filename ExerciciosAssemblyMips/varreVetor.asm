@@ -29,7 +29,7 @@ varreVetor:
     	addi $t0, $t0, 1 #Incrementando o indice
     	addi $t2, $t2, 4 #Incrementando o endereço para varrer o vetor
     	lw $t3, 0($t2) #Carregando a palavra do endereço e armazenando em $t3
-    	blt $t0, $t1, loop #Comparando se o indice e menor que o limite de indice
+    	blt $t0, $t1, varreVetor #Comparando se o indice e menor que o limite de indice
 
 	
 
